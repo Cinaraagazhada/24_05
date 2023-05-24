@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar_ul{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-around;
+    
+
+    
+}
+li{
+    display: inline-block;
+  
+}
+.navbar{
+   margin: 30px 500px;
+}
+.main_sec{
+    background-color:  #f6214b;
+    display: flex;
+     width: 100%;
+    height: 88vh;
+    font-size: 32px;
+    color: white;
+ 
+}
+.main_sec img{
+ margin-top: 80px;
+}
+
+.main_sec_desc{
+    width: 100%;
+    height:80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_sec button{
+    padding: 10px;
+}
+span{
+    color: #222222;
+    font-size: 30px;
+}
+.start h6{
+    font-size: 30px;
+    margin-right:80px;
+}
+.start{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 30px; */
+    background-color: rgb(208, 238, 228);
+    width: 100%;
+    height: 30vh;
+
+
+}
+.start button{
+padding: 10px;
+background-color: #f6214b;
+color: white;
+}
+.Requirements{
+   text-align: center; 
+   margin-top: 30px;
+   margin-bottom: 30px;
+   font-size: 22px;
+}
+.Card{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 60%;
+}
+.Connected{
+    background: #000;
+    color: white;
+   display: block;
+    height:40vh;
+}
+.Connected_desc{
+    margin-left: 255px;
+    margin-top:25px;
+}
+
+
